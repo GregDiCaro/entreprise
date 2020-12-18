@@ -1,0 +1,73 @@
+/* vp +header */
+header {
+  flex-direction: column;
+}
+header ul {
+  display: flex;
+  flex-flow: column;
+  list-style: none;
+  font-weight: 900;
+  text-align: center;
+}
+header ul li {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid white;
+}
+.vp-content h1 {
+  font-size: 2em;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.offer {
+  padding: 10rem 1rem;
+}
+.offer-list {
+  flex-direction: column;
+}
+
+.who {
+  flex-direction: column-reverse;
+}
+.who-content-img {
+  min-height: 300px;
+}
+.who-content-text {
+  padding: 4rem;
+
+  background: #333;
+  color: #ddd;
+}
+
+.title {
+  text-align: center;
+}
+.testi-elem {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.testi-elem-reverse {
+  flex-direction: column-reverse;
+}
+.testi-elem-profil {
+  font-weight: 700;
+  text-align: center;
+}
+.testi-elem-profil img {
+  display: block;
+  margin: 2rem auto;
+}
+.contact {
+  padding: 5rem 1rem 5rem 1rem;
+}

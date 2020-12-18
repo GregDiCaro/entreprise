@@ -1,0 +1,269 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eee;
+  color: #333;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+strong {
+  color: #ffc312;
+}
+.bg-dark {
+  background: #333;
+  color: white;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+em {
+  color: #333;
+}
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* vp +header */
+
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 1rem 2rem;
+  background-color: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  line-height: 1.8rem;
+}
+header a {
+  color: white;
+}
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  font-weight: 900;
+}
+header ul li {
+  padding: 1rem;
+}
+header ul li a:hover {
+  color: #ffc312;
+}
+.vp-logo {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  font-family: "Liu Jian Mao Cao", cursive;
+  letter-spacing: 3px;
+  display: flex;
+  flex-flow: row nowrap;
+
+  align-items: center;
+}
+.vp-logo i {
+  color: #ffc312;
+  font-size: 1.5em;
+  margin-right: 0.5rem;
+}
+.vp-logo a {
+  font-size: 3rem;
+  font-weight: 300;
+}
+.vp {
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/paris.jpeg) center center;
+  background-size: cover;
+  color: white;
+}
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  padding: 1rem;
+}
+.vp-content h1 {
+  font-size: 3.5em;
+  margin-bottom: 2rem;
+}
+.vp-content p {
+  font-size: 1.8rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+/* offer */
+
+.offer {
+  padding: 10rem 1rem;
+}
+.offer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.offer-elem {
+  border: 1px solid #ddd;
+  background: white;
+  margin: 1rem;
+  flex: 1;
+}
+.offer-elem-img {
+  width: 100%;
+}
+.offer-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+.offer-separator {
+  height: 2px;
+  width: 50px;
+  margin: 1rem auto;
+  background: #333;
+}
+/* who */
+
+.who {
+  display: flex;
+  flex-flow: row nowrap;
+  min-height: 600px;
+}
+
+.who-content-img {
+  flex: 1;
+  background: url(./images/team.jpeg) center center/cover;
+}
+
+.who-content-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #333;
+  color: #ddd;
+}
+
+.who-content-text p {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+}
+.who-content-text h2 {
+  margin-bottom: 2rem;
+}
+/* testi */
+.testi {
+  padding: 5rem 1rem;
+}
+.testi-content {
+  display: flex;
+  flex-direction: column;
+}
+.testi-elem {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.testi-elem-text {
+  padding: 0 2rem;
+}
+.testi-elem-profil {
+}
+.testi-elem-profil p {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.testi-elem-profil img {
+  width: 50px;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+/* contact */
+.contact {
+  padding: 5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-form {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.contact-form input {
+  background: #333;
+  border: 0;
+  border-bottom: 1px solid #555;
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #ddd;
+  outline: 0;
+  margin-bottom: 1rem;
+}
+.contact-form button {
+  display: block;
+  margin: 3rem auto;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 30px;
+  background: #ffc312;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background: red;
+}
+
+footer {
+  background: #444;
+  padding: 5rem 1rem;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 0;
+  color: antiquewhite;
+}
